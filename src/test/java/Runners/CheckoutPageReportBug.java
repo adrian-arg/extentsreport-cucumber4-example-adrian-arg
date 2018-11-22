@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		strict = true
 , features = { "src/test/resources/Features/" }
 , glue = { "cucumberadapter4.adrianarg.StepDefinitions" }
-, tags = { "@CheckoutPage and @BUG"}
+//, tags = { "@CheckoutPage and @BUG"}
 , monochrome = true
 , plugin = {"pretty:Reports/CheckoutPage/StdOut/STDOUT"
 		,"html:Reports/CheckoutPage/HTML"
